@@ -25,11 +25,15 @@ nav {
     margin: 0;
 }
 
-nav ul { list-style: none; display: flex; margin: 0; padding: 0; }
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    margin: 0; padding: 0; }
+
+
 nav ul li a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     font-size: 0.8rem;
-    font-weight: bold;
-}
+    font-weight: bold;}
