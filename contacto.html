@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EnDigital</title>
-    <link rel="stylesheet" href="assets/css/style_contactanos.css">
+    <link rel="stylesheet" href="assets/css/style_inicio.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -23,7 +23,7 @@
         <nav class="centro">
             <ul>
                 <li><a href="experience.html" >INICIO</a></li>
-                <li><a href="vehiculos.html">VEHÍCULOS</a></li>
+                <li><a href="modelos.html">VEHÍCULOS</a></li>
                 <li><a href="repuestos.html">REPUESTOS Y SERVICIOS</a></li>
                 <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
                 <li><a href="contacto.html" class="active"> CONTACTO</a></li>
@@ -66,11 +66,16 @@
 <form class="row g-3">
     <div class="col-md-6">
       <label for="validationDefault01" class="form-label">nombre(s)</label>
-      <input type="text" class="form-control" id="validationDefault01" required>
+      <input type="text" class="form-control" id="validationDefault01" required placeholder="nombre">
     </div>
     <div class="col-md-6">
       <label for="validationDefault02" class="form-label">apellido(s)</label>
-      <input type="text" class="form-control" id="validationDefault02"  required>
+      <input type="text" class="form-control" id="validationDefault02"  required placeholder="apellido">
+    </div>
+
+    <div class="col-md-6">
+      <label for="validationDefault02" class="form-label">correo elactronico</label>
+      <input type="text" class="form-control" id="validationDefault02"  required placeholder="ejemplo@gmail.com">
     </div>
 
     <div class="col-md-6">
@@ -109,24 +114,19 @@
     </div>
      <div class="col-md-6">
       <label for="validationDefault02" class="form-label">ciudad</label>
-      <input type="text" class="form-control" id="validationDefault02"  required>
+      <input type="text" class="form-control" id="validationDefault02"  required placeholder="ciudad">
     </div>
 
    <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">informacion que desea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1"  rows="3"></textarea>
+  <textarea class="form-control" id="exampleFormControlTextarea1"  rows="3" placeholder="Ingrese texto aquí"></textarea>
 </div>
 
 <div class="col-12">
       <button class="btn btn-primary" type="submit">Submit form</button>
     </div>
+    </div>   
     </div>
-    
-    
-    </div>
- 
-   
-   
   </form>
 </div>
 </section>
