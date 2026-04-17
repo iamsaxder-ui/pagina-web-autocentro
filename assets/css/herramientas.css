@@ -34,7 +34,7 @@ body {
 }
 
 
-.active { border-bottom: 2px solid var(--text-gold); }
+.active { color: var(--text-gold); }
 
 
 
@@ -53,3 +53,4 @@ body {
     gap: 10px;
    
 }
+
